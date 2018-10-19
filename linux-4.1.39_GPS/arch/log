@@ -1,0 +1,519 @@
+./m32r/include/uapi/asm/unistd.h:331:#define __NR_eventfd		323
+./m32r/boot/compressed/head.S:76:#ifndef CONFIG_CHIP_M32310
+./m32r/kernel/time.c:99:#elif defined(CONFIG_CHIP_M32310)
+./m32r/kernel/time.c:193:#elif defined(CONFIG_CHIP_M32310)
+./m32r/kernel/head.S:60:#ifndef CONFIG_CHIP_M32310
+./s390/include/uapi/asm/unistd.h:261:#define __NR_eventfd2		323
+./s390/configs/gcov_defconfig:127:CONFIG_NF_CONNTRACK_H323=m
+./s390/configs/default_defconfig:129:CONFIG_NF_CONNTRACK_H323=m
+./s390/configs/performance_defconfig:125:CONFIG_NF_CONNTRACK_H323=m
+./x86/include/generated/asm/syscalls_64.h:309:__SYSCALL_COMMON(323, sys_sched_info, sys_sched_info)
+./x86/include/generated/asm/unistd_32_ia32.h:323:#define __NR_ia32_eventfd 323
+./x86/include/generated/asm/syscalls_32.h:302:__SYSCALL_I386(323, sys_eventfd, sys_eventfd)
+./x86/include/generated/uapi/asm/unistd_32.h:323:#define __NR_eventfd 323
+./x86/include/generated/uapi/asm/unistd_64.h:327:#define __NR_sched_info 323
+./x86/include/generated/uapi/asm/unistd_x32.h:282:#define __NR_sched_info (__X32_SYSCALL_BIT + 323)
+./x86/syscalls/syscall_64.tbl:335:323 common sched_info sys_sched_info
+./x86/syscalls/syscall_32.tbl:332:323	i386	eventfd			sys_eventfd
+Binary file ./x86/boot/compressed/vmlinux.bin matches
+./x86/boot/compressed/piggy.S:11:z_run_size = 21323776
+./x86/boot/compressed/.piggy.S.cmd:1:cmd_arch/x86/boot/compressed/piggy.S := arch/x86/boot/compressed/mkpiggy arch/x86/boot/compressed/vmlinux.bin.gz 21323776 > arch/x86/boot/compressed/piggy.S || ( rm -f arch/x86/boot/compressed/piggy.S ; false )
+./x86/math-emu/README:333:fyl2x     (0,20)      541861      0      0    1323   63.94  1.40923  (x)
+Binary file ./x86/built-in.o matches
+./x86/crypto/camellia_glue.c:71:	0x4100004141414100ULL, 0x2300002323232300ULL, 0xef0000efefefef00ULL,
+./x86/crypto/camellia_glue.c:100:	0x1100001111111100ULL, 0x1c00001c1c1c1c00ULL, 0x3200003232323200ULL,
+./x86/crypto/camellia_glue.c:162:	0x3232000000323232ULL, 0x4b4b0000004b4b4bULL, 0x4242000000424242ULL,
+./x86/crypto/camellia_glue.c:194:	0x6b6b0000006b6b6bULL, 0xf4f4000000f4f4f4ULL, 0x2323000000232323ULL,
+./x86/crypto/camellia_glue.c:291:	0x00ffff00ff00ffffULL, 0x0032320032003232ULL, 0x0069690069006969ULL,
+./x86/crypto/camellia_glue.c:315:	0x0023230023002323ULL, 0x00b8b800b800b8b8ULL, 0x005d5d005d005d5dULL,
+./x86/crypto/camellia_glue.c:335:	0x0000eaeaeaea00eaULL, 0x0000aeaeaeae00aeULL, 0x0000232323230023ULL,
+./x86/crypto/camellia_glue.c:350:	0x0000111111110011ULL, 0x0000323232320032ULL, 0x00009c9c9c9c009cULL,
+./x86/crypto/camellia_glue.c:429:	0x0032323200323232ULL, 0x004b4b4b004b4b4bULL, 0x0042424200424242ULL,
+./x86/crypto/camellia_glue.c:461:	0x006b6b6b006b6b6bULL, 0x00f4f4f400f4f4f4ULL, 0x0023232300232323ULL,
+./x86/crypto/camellia_glue.c:558:	0xff00ffffff00ffffULL, 0x3200323232003232ULL, 0x6900696969006969ULL,
+./x86/crypto/camellia_glue.c:582:	0x2300232323002323ULL, 0xb800b8b8b800b8b8ULL, 0x5d005d5d5d005d5dULL,
+./x86/crypto/camellia_glue.c:602:	0xeaea00eaeaea00eaULL, 0xaeae00aeaeae00aeULL, 0x2323002323230023ULL,
+./x86/crypto/camellia_glue.c:617:	0x1111001111110011ULL, 0x3232003232320032ULL, 0x9c9c009c9c9c009cULL,
+./x86/crypto/camellia_glue.c:694:	0x4141410041414100ULL, 0x2323230023232300ULL, 0xefefef00efefef00ULL,
+./x86/crypto/camellia_glue.c:723:	0x1111110011111100ULL, 0x1c1c1c001c1c1c00ULL, 0x3232320032323200ULL,
+Binary file ./x86/power/cpu.o matches
+Binary file ./x86/power/built-in.o matches
+./x86/kernel/asm-offsets.s:319:->__NR_syscall_max $323 sizeof(syscalls_64) - 1	#
+./x86/kernel/asm-offsets.s:3394:	.long	.LASF323
+./x86/kernel/asm-offsets.s:12450:	.long	.LASF1323
+./x86/kernel/asm-offsets.s:12466:	.long	.LASF1323
+./x86/kernel/asm-offsets.s:16823:	.long	0x9323
+./x86/kernel/asm-offsets.s:17216:	.value	0x323
+./x86/kernel/asm-offsets.s:18460:	.long	0x9323
+./x86/kernel/asm-offsets.s:23106:.LASF323:
+./x86/kernel/asm-offsets.s:25082:.LASF1323:
+./sparc/include/uapi/asm/unistd.h:391:#define __NR_accept4		323
+./xtensa/include/uapi/asm/unistd.h:711:#define __NR_process_vm_writev			323
+./xtensa/include/uapi/asm/unistd.h:712:__SYSCALL(323, sys_process_vm_writev, 6)
+./metag/kernel/traps.c:307:	__core_reg_set(TXCATCH2, 0x87654323);
+./blackfin/include/asm/mem_init.h:376:		.dmc_ddrtr0 = 0x20A07323,
+./blackfin/include/asm/mem_init.h:387:		.dmc_ddrtr0 = 0x20A07323,
+./blackfin/include/asm/mem_init.h:398:		.dmc_ddrtr0 = 0x20a07323,
+./blackfin/include/uapi/asm/unistd.h:340:#define __NR_recvmsg		323
+./blackfin/mach-bf527/include/mach/anomaly.h:277:#define ANOMALY_05000323 (0)
+./blackfin/mach-bf527/include/mach/defBF522.h:562:#define PORTF_SLEW              0xFFC03230      /* Port F slew control */
+./blackfin/mach-bf527/include/mach/defBF522.h:563:#define PORTG_SLEW              0xFFC03234      /* Port G slew control */
+./blackfin/mach-bf527/include/mach/defBF522.h:564:#define PORTH_SLEW              0xFFC03238      /* Port H slew control */
+./blackfin/mach-common/pm.c:56:	 * http://blackfin.uclinux.org/gf/tracker/4323
+./blackfin/mach-common/clocks-init.c:73:	 * http://blackfin.uclinux.org/gf/tracker/4323
+./blackfin/mach-common/ints-priority.c:1102:	 * http://blackfin.uclinux.org/gf/tracker/4323
+./blackfin/mach-bf561/include/mach/anomaly.h:201:#define ANOMALY_05000323 (1)
+./blackfin/mach-bf537/include/mach/anomaly.h:216:#define ANOMALY_05000323 (0)
+./blackfin/mach-bf537/boards/stamp.c:600:	.sys_cfg_reg = {0x2B2, 0x0, 0x3233, 0x819, 0x832, 0xCFF, 0xCFF, 0x0},
+./blackfin/mach-bf609/include/mach/anomaly.h:116:#define ANOMALY_05000323 (0)
+./blackfin/mach-bf609/include/mach/defBF60x_base.h:788:#define PORTE_MUX                   0xFFC03230         /* PORTE Port x Multiplexer Control Register */
+./blackfin/mach-bf609/include/mach/defBF60x_base.h:789:#define PORTE_DATA_TGL              0xFFC03234         /* PORTE Port x GPIO Input Enable Toggle Register */
+./blackfin/mach-bf609/include/mach/defBF60x_base.h:790:#define PORTE_POL                   0xFFC03238         /* PORTE Port x GPIO Programming Inversion Register */
+./blackfin/mach-bf609/include/mach/defBF60x_base.h:791:#define PORTE_POL_SET               0xFFC0323C         /* PORTE Port x GPIO Programming Inversion Set Register */
+./blackfin/mach-bf518/include/mach/anomaly.h:144:#define ANOMALY_05000323 (0)
+./blackfin/mach-bf518/include/mach/defBF512.h:561:#define PORTF_SLEW              0xFFC03230      /* Port F slew control */
+./blackfin/mach-bf518/include/mach/defBF512.h:562:#define PORTG_SLEW              0xFFC03234      /* Port G slew control */
+./blackfin/mach-bf518/include/mach/defBF512.h:563:#define PORTH_SLEW              0xFFC03238      /* Port H slew control */
+./blackfin/mach-bf538/include/mach/anomaly.h:189:#define ANOMALY_05000323 (0)
+./blackfin/mach-bf548/include/mach/anomaly.h:286:#define ANOMALY_05000323 (0)
+./blackfin/mach-bf548/include/mach/defBF544.h:87:#define                       CAN1_OPSS1  0xffc03230   /* CAN Controller 1 Overwrite Protection Single Shot Transmit Register 1 */
+./blackfin/mach-bf548/include/mach/defBF548.h:30:#define                       CAN1_OPSS1  0xffc03230   /* CAN Controller 1 Overwrite Protection Single Shot Transmit Register 1 */
+./blackfin/mach-bf533/include/mach/anomaly.h:359:#define ANOMALY_05000323 (0)
+./blackfin/kernel/bfin_gpio.c:17:#if ANOMALY_05000311 || ANOMALY_05000323
+./blackfin/kernel/bfin_gpio.c:37:#elif ANOMALY_05000323
+./blackfin/kernel/bfin_gpio.c:378:	if (ANOMALY_05000311 || ANOMALY_05000323) \
+./blackfin/kernel/bfin_gpio.c:384:	if (ANOMALY_05000311 || ANOMALY_05000323) { \
+./blackfin/kernel/bfin_gpio.c:398:	if (ANOMALY_05000311 || ANOMALY_05000323)
+./blackfin/kernel/bfin_gpio.c:401:	if (ANOMALY_05000311 || ANOMALY_05000323) {
+./blackfin/kernel/bfin_gpio.c:415:	if (ANOMALY_05000311 || ANOMALY_05000323) \
+./blackfin/kernel/bfin_gpio.c:418:	if (ANOMALY_05000311 || ANOMALY_05000323) { \
+./blackfin/kernel/bfin_gpio.c:440:	if (ANOMALY_05000311 || ANOMALY_05000323) \
+./blackfin/kernel/bfin_gpio.c:443:	if (ANOMALY_05000311 || ANOMALY_05000323) { \
+./blackfin/kernel/bfin_gpio.c:467:	if (ANOMALY_05000311 || ANOMALY_05000323) \
+./blackfin/kernel/bfin_gpio.c:470:	if (ANOMALY_05000311 || ANOMALY_05000323) { \
+./arm/include/uapi/asm/unistd.h:351:#define __NR_mkdirat			(__NR_SYSCALL_BASE+323)
+./arm/mach-imx/iomux-mx3.h:494:	MX31_PIN_GPIO1_0	= IOMUX_PIN( 0,   323),
+./arm/tools/mach-types:275:dns323			MACH_DNS323		DNS323			1542
+./arm/tools/mach-types:531:msm8960_sim		MACH_MSM8960_SIM	MSM8960_SIM		3230
+./arm/tools/mach-types:532:msm8960_rumi3		MACH_MSM8960_RUMI3	MSM8960_RUMI3		3231
+./arm/tools/mach-types:533:gsia18s			MACH_GSIA18S		GSIA18S			3234
+./arm/tools/mach-types:776:helios_v5		MACH_HELIOS_V5		HELIOS_V5		4323
+./arm/mach-lpc32xx/phy3250.c:253:	"nxp,lpc3230",
+./arm/boot/dts/r8a7790.dtsi:324:				 0 323 IRQ_TYPE_LEVEL_HIGH
+./arm/boot/dts/imx53-smd.dts:70:	zigbee: mc1323@0 {
+./arm/boot/dts/imx53-smd.dts:71:		compatible = "fsl,mc1323";
+./arm/boot/dts/r8a7791.dtsi:311:				 0 323 IRQ_TYPE_LEVEL_HIGH
+./arm/boot/dts/ls1021a-qds.dts:91:			ds3232: rtc@68 {
+./arm/boot/dts/ls1021a-qds.dts:92:				compatible = "dallas,ds3232";
+./arm/crypto/aes-armv4.S:57:.word	0x0804040c, 0x95c7c752, 0x46232365, 0x9dc3c35e
+./arm/crypto/aes-armv4.S:85:.word	0xdbe0e03b, 0x64323256, 0x743a3a4e, 0x140a0a1e
+./arm/crypto/aes-armv4.S:757:.word	0xab73d323, 0x724b02e2, 0xe31f8f57, 0x6655ab2a
+./arm/mach-shmobile/clock-r8a7740.c:459:	MSTP329, MSTP328, MSTP323, MSTP320,
+./arm/mach-shmobile/clock-r8a7740.c:494:	[MSTP323] = SH_CLK_MSTP32(&div6_clks[DIV6_SUB],	SMSTPCR3, 23, 0), /* IIC1 */
+./arm/mach-shmobile/clock-r8a7740.c:584:	CLKDEV_DEV_ID("i2c-sh_mobile.1",	&mstp_clks[MSTP323]),
+./arm/mach-shmobile/clock-r8a7740.c:585:	CLKDEV_DEV_ID("e6c20000.i2c",		&mstp_clks[MSTP323]),
+./arm/mach-shmobile/clock-sh73a0.c:552:	MSTP331, MSTP329, MSTP328, MSTP325, MSTP323, MSTP322,
+./arm/mach-shmobile/clock-sh73a0.c:587:	[MSTP323] = MSTP(&div4_clks[DIV4_HP], SMSTPCR3, 23, 0), /* IIC1 */
+./arm/mach-shmobile/clock-sh73a0.c:661:	CLKDEV_DEV_ID("i2c-sh_mobile.1", &mstp_clks[MSTP323]), /* I2C1 */
+./arm/mach-shmobile/clock-sh73a0.c:662:	CLKDEV_DEV_ID("e6822000.i2c", &mstp_clks[MSTP323]), /* I2C1 */
+./arm/mach-shmobile/clock-r8a7778.c:117:	MSTP323, MSTP322, MSTP321,
+./arm/mach-shmobile/clock-r8a7778.c:140:	[MSTP323] = SH_CLK_MSTP32(&p_clk, MSTPCR3, 23, 0), /* SDHI0 */
+./arm/mach-shmobile/clock-r8a7778.c:180:	CLKDEV_DEV_ID("sh_mobile_sdhi.0", &mstp_clks[MSTP323]), /* SDHI0 */
+./arm/mach-shmobile/clock-r8a7778.c:181:	CLKDEV_DEV_ID("ffe4c000.sd", &mstp_clks[MSTP323]), /* SDHI0 */
+./arm/mach-shmobile/clock-r8a7779.c:103:enum { MSTP323, MSTP322, MSTP321, MSTP320,
+./arm/mach-shmobile/clock-r8a7779.c:115:	[MSTP323] = SH_CLK_MSTP32(&clkp_clk, MSTPCR3, 23, 0), /* SDHI0 */
+./arm/mach-shmobile/clock-r8a7779.c:193:	CLKDEV_DEV_ID("sh_mobile_sdhi.0", &mstp_clks[MSTP323]), /* SDHI0 */
+./arm/mach-shmobile/clock-r8a7779.c:194:	CLKDEV_DEV_ID("ffe4c000.sd", &mstp_clks[MSTP323]), /* SDHI0 */
+./arm/mach-orion5x/dns323-setup.c:2: * arch/arm/mach-orion5x/dns323-setup.c
+./arm/mach-orion5x/dns323-setup.c:42:#define DNS323_GPIO_LED_RIGHT_AMBER	1
+./arm/mach-orion5x/dns323-setup.c:43:#define DNS323_GPIO_LED_LEFT_AMBER	2
+./arm/mach-orion5x/dns323-setup.c:44:#define DNS323_GPIO_SYSTEM_UP		3
+./arm/mach-orion5x/dns323-setup.c:45:#define DNS323_GPIO_LED_POWER1		4
+./arm/mach-orion5x/dns323-setup.c:46:#define DNS323_GPIO_LED_POWER2		5
+./arm/mach-orion5x/dns323-setup.c:47:#define DNS323_GPIO_OVERTEMP		6
+./arm/mach-orion5x/dns323-setup.c:48:#define DNS323_GPIO_RTC			7
+./arm/mach-orion5x/dns323-setup.c:49:#define DNS323_GPIO_POWER_OFF		8
+./arm/mach-orion5x/dns323-setup.c:50:#define DNS323_GPIO_KEY_POWER		9
+./arm/mach-orion5x/dns323-setup.c:51:#define DNS323_GPIO_KEY_RESET		10
+./arm/mach-orion5x/dns323-setup.c:54:#define DNS323C_GPIO_KEY_POWER		1
+./arm/mach-orion5x/dns323-setup.c:55:#define DNS323C_GPIO_POWER_OFF		2
+./arm/mach-orion5x/dns323-setup.c:56:#define DNS323C_GPIO_LED_RIGHT_AMBER	8
+./arm/mach-orion5x/dns323-setup.c:57:#define DNS323C_GPIO_LED_LEFT_AMBER	9
+./arm/mach-orion5x/dns323-setup.c:58:#define DNS323C_GPIO_LED_POWER		17
+./arm/mach-orion5x/dns323-setup.c:59:#define DNS323C_GPIO_FAN_BIT1		18
+./arm/mach-orion5x/dns323-setup.c:60:#define DNS323C_GPIO_FAN_BIT0		19
+./arm/mach-orion5x/dns323-setup.c:64:	DNS323_REV_A1,	/* 0 */
+./arm/mach-orion5x/dns323-setup.c:65:	DNS323_REV_B1,	/* 1 */
+./arm/mach-orion5x/dns323-setup.c:66:	DNS323_REV_C1,	/* 2 */
+./arm/mach-orion5x/dns323-setup.c:74:static int __init dns323_pci_map_irq(const struct pci_dev *dev, u8 slot, u8 pin)
+./arm/mach-orion5x/dns323-setup.c:88:static struct hw_pci dns323_pci __initdata = {
+./arm/mach-orion5x/dns323-setup.c:92:	.map_irq	= dns323_pci_map_irq,
+./arm/mach-orion5x/dns323-setup.c:95:static int __init dns323_pci_init(void)
+./arm/mach-orion5x/dns323-setup.c:100:	if (machine_is_dns323() && system_rev == DNS323_REV_A1)
+./arm/mach-orion5x/dns323-setup.c:101:		pci_common_init(&dns323_pci);
+./arm/mach-orion5x/dns323-setup.c:106:subsys_initcall(dns323_pci_init);
+./arm/mach-orion5x/dns323-setup.c:119:#define DNS323_NOR_BOOT_BASE 0xf4000000
+./arm/mach-orion5x/dns323-setup.c:120:#define DNS323_NOR_BOOT_SIZE SZ_8M
+./arm/mach-orion5x/dns323-setup.c:122:static struct mtd_partition dns323_partitions[] = {
+./arm/mach-orion5x/dns323-setup.c:146:static struct physmap_flash_data dns323_nor_flash_data = {
+./arm/mach-orion5x/dns323-setup.c:148:	.parts		= dns323_partitions,
+./arm/mach-orion5x/dns323-setup.c:149:	.nr_parts	= ARRAY_SIZE(dns323_partitions)
+./arm/mach-orion5x/dns323-setup.c:152:static struct resource dns323_nor_flash_resource = {
+./arm/mach-orion5x/dns323-setup.c:154:	.start		= DNS323_NOR_BOOT_BASE,
+./arm/mach-orion5x/dns323-setup.c:155:	.end		= DNS323_NOR_BOOT_BASE + DNS323_NOR_BOOT_SIZE - 1,
+./arm/mach-orion5x/dns323-setup.c:158:static struct platform_device dns323_nor_flash = {
+./arm/mach-orion5x/dns323-setup.c:162:		.platform_data	= &dns323_nor_flash_data,
+./arm/mach-orion5x/dns323-setup.c:164:	.resource	= &dns323_nor_flash_resource,
+./arm/mach-orion5x/dns323-setup.c:172:static struct mv643xx_eth_platform_data dns323_eth_data = {
+./arm/mach-orion5x/dns323-setup.c:176:/* dns323_parse_hex_*() taken from tsx09-common.c; should a common copy of these
+./arm/mach-orion5x/dns323-setup.c:179:static int __init dns323_parse_hex_nibble(char n)
+./arm/mach-orion5x/dns323-setup.c:193:static int __init dns323_parse_hex_byte(const char *b)
+./arm/mach-orion5x/dns323-setup.c:198:	hi = dns323_parse_hex_nibble(b[0]);
+./arm/mach-orion5x/dns323-setup.c:199:	lo = dns323_parse_hex_nibble(b[1]);
+./arm/mach-orion5x/dns323-setup.c:207:static int __init dns323_read_mac_addr(void)
+./arm/mach-orion5x/dns323-setup.c:216:	mac_page = ioremap(DNS323_NOR_BOOT_BASE + 0x7d0000 + 196480, 1024);
+./arm/mach-orion5x/dns323-setup.c:230:		byte = dns323_parse_hex_byte(mac_page + (i * 3));
+./arm/mach-orion5x/dns323-setup.c:239:	printk("DNS-323: Found ethernet MAC address: ");
+./arm/mach-orion5x/dns323-setup.c:243:	memcpy(dns323_eth_data.mac_addr, addr, 6);
+./arm/mach-orion5x/dns323-setup.c:256:static struct gpio_led dns323ab_leds[] = {
+./arm/mach-orion5x/dns323-setup.c:259:		.gpio = DNS323_GPIO_LED_POWER2,
+./arm/mach-orion5x/dns323-setup.c:263:		.gpio = DNS323_GPIO_LED_RIGHT_AMBER,
+./arm/mach-orion5x/dns323-setup.c:267:		.gpio = DNS323_GPIO_LED_LEFT_AMBER,
+./arm/mach-orion5x/dns323-setup.c:273:static struct gpio_led dns323c_leds[] = {
+./arm/mach-orion5x/dns323-setup.c:276:		.gpio = DNS323C_GPIO_LED_POWER,
+./arm/mach-orion5x/dns323-setup.c:281:		.gpio = DNS323C_GPIO_LED_RIGHT_AMBER,
+./arm/mach-orion5x/dns323-setup.c:285:		.gpio = DNS323C_GPIO_LED_LEFT_AMBER,
+./arm/mach-orion5x/dns323-setup.c:291:static struct gpio_led_platform_data dns323ab_led_data = {
+./arm/mach-orion5x/dns323-setup.c:292:	.num_leds	= ARRAY_SIZE(dns323ab_leds),
+./arm/mach-orion5x/dns323-setup.c:293:	.leds		= dns323ab_leds,
+./arm/mach-orion5x/dns323-setup.c:297:static struct gpio_led_platform_data dns323c_led_data = {
+./arm/mach-orion5x/dns323-setup.c:298:	.num_leds	= ARRAY_SIZE(dns323c_leds),
+./arm/mach-orion5x/dns323-setup.c:299:	.leds		= dns323c_leds,
+./arm/mach-orion5x/dns323-setup.c:303:static struct platform_device dns323_gpio_leds = {
+./arm/mach-orion5x/dns323-setup.c:307:		.platform_data	= &dns323ab_led_data,
+./arm/mach-orion5x/dns323-setup.c:315:static struct gpio_keys_button dns323ab_buttons[] = {
+./arm/mach-orion5x/dns323-setup.c:318:		.gpio		= DNS323_GPIO_KEY_RESET,
+./arm/mach-orion5x/dns323-setup.c:323:		.gpio		= DNS323_GPIO_KEY_POWER,
+./arm/mach-orion5x/dns323-setup.c:329:static struct gpio_keys_platform_data dns323ab_button_data = {
+./arm/mach-orion5x/dns323-setup.c:330:	.buttons	= dns323ab_buttons,
+./arm/mach-orion5x/dns323-setup.c:331:	.nbuttons	= ARRAY_SIZE(dns323ab_buttons),
+./arm/mach-orion5x/dns323-setup.c:334:static struct gpio_keys_button dns323c_buttons[] = {
+./arm/mach-orion5x/dns323-setup.c:337:		.gpio		= DNS323C_GPIO_KEY_POWER,
+./arm/mach-orion5x/dns323-setup.c:343:static struct gpio_keys_platform_data dns323c_button_data = {
+./arm/mach-orion5x/dns323-setup.c:344:	.buttons	= dns323c_buttons,
+./arm/mach-orion5x/dns323-setup.c:345:	.nbuttons	= ARRAY_SIZE(dns323c_buttons),
+./arm/mach-orion5x/dns323-setup.c:348:static struct platform_device dns323_button_device = {
+./arm/mach-orion5x/dns323-setup.c:353:		.platform_data	= &dns323ab_button_data,
+./arm/mach-orion5x/dns323-setup.c:360:static struct mv_sata_platform_data dns323_sata_data = {
+./arm/mach-orion5x/dns323-setup.c:367:static unsigned int dns323a_mpp_modes[] __initdata = {
+./arm/mach-orion5x/dns323-setup.c:391:static unsigned int dns323b_mpp_modes[] __initdata = {
+./arm/mach-orion5x/dns323-setup.c:415:static unsigned int dns323c_mpp_modes[] __initdata = {
+./arm/mach-orion5x/dns323-setup.c:458: * On the DNS-323 A1 and B1 the following devices are attached via I2C:
+./arm/mach-orion5x/dns323-setup.c:465:static struct i2c_board_info __initdata dns323ab_i2c_devices[] = {
+./arm/mach-orion5x/dns323-setup.c:476: * On the DNS-323 C1 the following devices are attached via I2C:
+./arm/mach-orion5x/dns323-setup.c:482:static struct i2c_board_info __initdata dns323c_i2c_devices[] = {
+./arm/mach-orion5x/dns323-setup.c:490:/* DNS-323 rev. A specific power off method */
+./arm/mach-orion5x/dns323-setup.c:491:static void dns323a_power_off(void)
+./arm/mach-orion5x/dns323-setup.c:493:	pr_info("DNS-323: Triggering power-off...\n");
+./arm/mach-orion5x/dns323-setup.c:494:	gpio_set_value(DNS323_GPIO_POWER_OFF, 1);
+./arm/mach-orion5x/dns323-setup.c:497:/* DNS-323 rev B specific power off method */
+./arm/mach-orion5x/dns323-setup.c:498:static void dns323b_power_off(void)
+./arm/mach-orion5x/dns323-setup.c:500:	pr_info("DNS-323: Triggering power-off...\n");
+./arm/mach-orion5x/dns323-setup.c:502:	gpio_set_value(DNS323_GPIO_POWER_OFF, 1);
+./arm/mach-orion5x/dns323-setup.c:504:	gpio_set_value(DNS323_GPIO_POWER_OFF, 0);
+./arm/mach-orion5x/dns323-setup.c:507:/* DNS-323 rev. C specific power off method */
+./arm/mach-orion5x/dns323-setup.c:508:static void dns323c_power_off(void)
+./arm/mach-orion5x/dns323-setup.c:510:	pr_info("DNS-323: Triggering power-off...\n");
+./arm/mach-orion5x/dns323-setup.c:511:	gpio_set_value(DNS323C_GPIO_POWER_OFF, 1);
+./arm/mach-orion5x/dns323-setup.c:514:static int dns323c_phy_fixup(struct phy_device *phy)
+./arm/mach-orion5x/dns323-setup.c:516:	phy->dev_flags |= MARVELL_PHY_M1118_DNS323_LEDS;
+./arm/mach-orion5x/dns323-setup.c:521:static int __init dns323_identify_rev(void)
+./arm/mach-orion5x/dns323-setup.c:525:	pr_debug("DNS-323: Identifying board ... \n");
+./arm/mach-orion5x/dns323-setup.c:530:		pr_debug("DNS-323: 5181 found, board is A1\n");
+./arm/mach-orion5x/dns323-setup.c:531:		return DNS323_REV_A1;
+./arm/mach-orion5x/dns323-setup.c:533:	pr_debug("DNS-323: 5182 found, board is B1 or C1, checking PHY...\n");
+./arm/mach-orion5x/dns323-setup.c:553:		pr_warn("DNS-323: Timeout accessing PHY, assuming rev B1\n");
+./arm/mach-orion5x/dns323-setup.c:554:		return DNS323_REV_B1;
+./arm/mach-orion5x/dns323-setup.c:565:		pr_warn("DNS-323: Timeout reading PHY, assuming rev B1\n");
+./arm/mach-orion5x/dns323-setup.c:566:		return DNS323_REV_B1;
+./arm/mach-orion5x/dns323-setup.c:568:	pr_debug("DNS-323: Ethernet PHY ID 0x%x\n", reg & 0xffff);
+./arm/mach-orion5x/dns323-setup.c:576:		return DNS323_REV_B1;
+./arm/mach-orion5x/dns323-setup.c:578:		return DNS323_REV_C1;
+./arm/mach-orion5x/dns323-setup.c:580:		pr_warn("DNS-323: Unknown PHY ID 0x%04x, assuming rev B1\n",
+./arm/mach-orion5x/dns323-setup.c:583:	return DNS323_REV_B1;
+./arm/mach-orion5x/dns323-setup.c:586:static void __init dns323_init(void)
+./arm/mach-orion5x/dns323-setup.c:592:	system_rev = dns323_identify_rev();
+./arm/mach-orion5x/dns323-setup.c:593:	pr_info("DNS-323: Identified HW revision %c1\n", 'A' + system_rev);
+./arm/mach-orion5x/dns323-setup.c:599:	case DNS323_REV_A1:
+./arm/mach-orion5x/dns323-setup.c:600:		orion5x_mpp_conf(dns323a_mpp_modes);
+./arm/mach-orion5x/dns323-setup.c:603:	case DNS323_REV_B1:
+./arm/mach-orion5x/dns323-setup.c:604:		orion5x_mpp_conf(dns323b_mpp_modes);
+./arm/mach-orion5x/dns323-setup.c:606:	case DNS323_REV_C1:
+./arm/mach-orion5x/dns323-setup.c:607:		orion5x_mpp_conf(dns323c_mpp_modes);
+./arm/mach-orion5x/dns323-setup.c:616:				    DNS323_NOR_BOOT_BASE,
+./arm/mach-orion5x/dns323-setup.c:617:				    DNS323_NOR_BOOT_SIZE);
+./arm/mach-orion5x/dns323-setup.c:618:	platform_device_register(&dns323_nor_flash);
+./arm/mach-orion5x/dns323-setup.c:622:	case DNS323_REV_A1:
+./arm/mach-orion5x/dns323-setup.c:624:		 * DNS323_GPIO_LED_POWER1 to also be low.
+./arm/mach-orion5x/dns323-setup.c:626:		 dns323ab_leds[0].active_low = 1;
+./arm/mach-orion5x/dns323-setup.c:627:		 gpio_request(DNS323_GPIO_LED_POWER1, "Power Led Enable");
+./arm/mach-orion5x/dns323-setup.c:628:		 gpio_direction_output(DNS323_GPIO_LED_POWER1, 0);
+./arm/mach-orion5x/dns323-setup.c:630:	case DNS323_REV_B1:
+./arm/mach-orion5x/dns323-setup.c:631:		i2c_register_board_info(0, dns323ab_i2c_devices,
+./arm/mach-orion5x/dns323-setup.c:632:				ARRAY_SIZE(dns323ab_i2c_devices));
+./arm/mach-orion5x/dns323-setup.c:634:	case DNS323_REV_C1:
+./arm/mach-orion5x/dns323-setup.c:636:		dns323_gpio_leds.dev.platform_data = &dns323c_led_data;
+./arm/mach-orion5x/dns323-setup.c:637:		dns323_button_device.dev.platform_data = &dns323c_button_data;
+./arm/mach-orion5x/dns323-setup.c:640:		i2c_register_board_info(0, dns323c_i2c_devices,
+./arm/mach-orion5x/dns323-setup.c:641:				ARRAY_SIZE(dns323c_i2c_devices));
+./arm/mach-orion5x/dns323-setup.c:642:		platform_device_register_simple("dns323c-fan", 0, NULL, 0);
+./arm/mach-orion5x/dns323-setup.c:649:					   dns323c_phy_fixup);
+./arm/mach-orion5x/dns323-setup.c:652:	platform_device_register(&dns323_gpio_leds);
+./arm/mach-orion5x/dns323-setup.c:653:	platform_device_register(&dns323_button_device);
+./arm/mach-orion5x/dns323-setup.c:658:	if (dns323_read_mac_addr() < 0)
+./arm/mach-orion5x/dns323-setup.c:659:		printk("DNS-323: Failed to read MAC address\n");
+./arm/mach-orion5x/dns323-setup.c:661:	orion5x_eth_init(&dns323_eth_data);
+./arm/mach-orion5x/dns323-setup.c:667:	case DNS323_REV_A1:
+./arm/mach-orion5x/dns323-setup.c:669:		if (gpio_request(DNS323_GPIO_POWER_OFF, "POWEROFF") != 0 ||
+./arm/mach-orion5x/dns323-setup.c:670:		    gpio_direction_output(DNS323_GPIO_POWER_OFF, 0) != 0)
+./arm/mach-orion5x/dns323-setup.c:671:			pr_err("DNS-323: failed to setup power-off GPIO\n");
+./arm/mach-orion5x/dns323-setup.c:672:		pm_power_off = dns323a_power_off;
+./arm/mach-orion5x/dns323-setup.c:674:	case DNS323_REV_B1:
+./arm/mach-orion5x/dns323-setup.c:676:		orion5x_sata_init(&dns323_sata_data);
+./arm/mach-orion5x/dns323-setup.c:678:		/* The DNS323 rev B1 has flag to indicate the system is up.
+./arm/mach-orion5x/dns323-setup.c:682:		if (gpio_request(DNS323_GPIO_SYSTEM_UP, "SYS_READY") == 0)
+./arm/mach-orion5x/dns323-setup.c:683:			gpio_direction_output(DNS323_GPIO_SYSTEM_UP, 1);
+./arm/mach-orion5x/dns323-setup.c:686:		if (gpio_request(DNS323_GPIO_POWER_OFF, "POWEROFF") != 0 ||
+./arm/mach-orion5x/dns323-setup.c:687:		    gpio_direction_output(DNS323_GPIO_POWER_OFF, 0) != 0)
+./arm/mach-orion5x/dns323-setup.c:688:			pr_err("DNS-323: failed to setup power-off GPIO\n");
+./arm/mach-orion5x/dns323-setup.c:689:		pm_power_off = dns323b_power_off;
+./arm/mach-orion5x/dns323-setup.c:691:	case DNS323_REV_C1:
+./arm/mach-orion5x/dns323-setup.c:693:		orion5x_sata_init(&dns323_sata_data);
+./arm/mach-orion5x/dns323-setup.c:696:		if (gpio_request(DNS323C_GPIO_POWER_OFF, "POWEROFF") != 0 ||
+./arm/mach-orion5x/dns323-setup.c:697:		    gpio_direction_output(DNS323C_GPIO_POWER_OFF, 0) != 0)
+./arm/mach-orion5x/dns323-setup.c:698:			pr_err("DNS-323: failed to setup power-off GPIO\n");
+./arm/mach-orion5x/dns323-setup.c:699:		pm_power_off = dns323c_power_off;
+./arm/mach-orion5x/dns323-setup.c:715:MACHINE_START(DNS323, "D-Link DNS-323")
+./arm/mach-orion5x/dns323-setup.c:718:	.init_machine	= dns323_init,
+./arm/mach-orion5x/Makefile:9:obj-$(CONFIG_MACH_DNS323)	+= dns323-setup.o
+./arm/mach-orion5x/Kconfig:46:config MACH_DNS323
+./arm/mach-orion5x/Kconfig:47:	bool "D-Link DNS-323"
+./arm/mach-orion5x/Kconfig:51:	  D-Link DNS-323 platform.
+./arm/configs/s3c2410_defconfig:95:CONFIG_NF_CONNTRACK_H323=m
+./arm/configs/ezx_defconfig:71:CONFIG_NF_CONNTRACK_H323=m
+./arm/configs/imote2_defconfig:63:CONFIG_NF_CONNTRACK_H323=m
+./arm/configs/orion5x_defconfig:20:CONFIG_MACH_DNS323=y
+./frv/include/uapi/asm/unistd.h:332:#define __NR_eventfd		323
+./ia64/include/uapi/asm/unistd.h:315:#define __NR_fanotify_init		1323
+./mn10300/include/uapi/asm/unistd.h:336:#define __NR_timerfd_create	323
+./tile/kernel/tile-desc_32.c:1942:  CHILD(1151), CHILD(1242), CHILD(1290), CHILD(1323), TILEPRO_OPC_NONE,
+./tile/kernel/tile-desc_32.c:2070:  BITFIELD(43, 2) /* index 1323 */,
+./tile/configs/tilepro_defconfig:115:CONFIG_NF_CONNTRACK_H323=m
+./cris/include/uapi/asm/unistd.h:330:#define __NR_eventfd		323
+./alpha/include/uapi/asm/unistd.h:284:#define __NR_times		323
+./m68k/include/asm/atarihw.h:91:    ATARIHW_DECLARE(ST_ESCC);		/* SCC Z83230 in an ST */
+./m68k/include/uapi/asm/unistd.h:331:#define __NR_signalfd4		323
+./m68k/ifpsp060/isp.sa:138:	.long	0xfc323040,0xd1eefffc,0x4e752f01,0x206effa4
+./m68k/ifpsp060/isp.sa:226:	.long	0x4843b443,0x6606323c,0xffff600a,0x220582c3
+./m68k/ifpsp060/ilsp.sa:53:	dc.l	$48424843,$b4436606,$323cffff,$600a2205
+./m68k/ifpsp060/ilsp.sa:88:	dc.l	$fffc242e,$00083036,$0161000c,$32360162
+./m68k/ifpsp060/ilsp.sa:95:	dc.l	$fffc242e,$00083036,$0161000c,$32360162
+./m68k/ifpsp060/pfpsp.sa:259:	dc.l	$ff6c4280,$41eeff6c,$323c3c01,$61ff0000
+./m68k/ifpsp060/pfpsp.sa:451:	dc.l	$0076206e,$000c4e75,$323b120e,$206e000c
+./m68k/ifpsp060/pfpsp.sa:458:	dc.l	$000cffd8,$4e75323b,$1214206e,$000c5188
+./m68k/ifpsp060/pfpsp.sa:541:	dc.l	$5ddd3dbd,$7dfd0383,$43c323a3,$63e31393
+./m68k/ifpsp060/pfpsp.sa:678:	dc.l	$ffff0000,$3f813c01,$e408323b,$02f63001
+./m68k/ifpsp060/pfpsp.sa:768:	dc.l	$428061ff,$fffffa64,$2057323c,$00044841
+./m68k/ifpsp060/pfpsp.sa:967:	dc.l	$323b120a,$4efb1006,$4afc0030,$fd120072
+./m68k/ifpsp060/pfpsp.sa:1074:	dc.l	$febc323b,$120a4efb,$10064afc,$0030fd20
+./m68k/ifpsp060/pfpsp.sa:1207:	dc.l	$4e75323b,$120a4efb,$10064afc,$0030ffdc
+./m68k/ifpsp060/pfpsp.sa:1270:	dc.l	$323b120a,$4efb1006,$4afc0030,$fd560072
+./m68k/ifpsp060/pfpsp.sa:1319:	dc.l	$f23c58b8,$0001f293,$fe0c6000,$fedc323b
+./m68k/ifpsp060/pfpsp.sa:1367:	dc.l	$0498f200,$0438f292,$feca6000,$fe14323b
+./m68k/ifpsp060/pfpsp.sa:1428:	dc.l	$feca6000,$fe14323b,$120a4efb,$10064afc
+./m68k/ifpsp060/pfpsp.sa:1504:	dc.l	$ffd84e75,$323b1206,$4efb1002,$00100016
+./m68k/ifpsp060/pfpsp.sa:1508:	dc.l	$323b1206,$4efb1002,$00100016,$001c0020
+./m68k/ifpsp060/pfpsp.sa:1511:	dc.l	$3a004e75,$3c004e75,$3e004e75,$323b1206
+./m68k/ifpsp060/pfpsp.sa:1515:	dc.l	$1c004e75,$1e004e75,$323b1206,$4efb1002
+./m68k/ifpsp060/pfpsp.sa:1520:	dc.l	$4e7554ae,$ffd84e75,$323b1206,$4efb1002
+./m68k/ifpsp060/pfpsp.sa:1724:	dc.l	$4e75122e,$ff410241,$0007323b,$12064efb
+./m68k/ifpsp060/fpsp.sa:259:	.long	0xff6c4280,0x41eeff6c,0x323c3c01,0x61ff0000
+./m68k/ifpsp060/fpsp.sa:462:	.long	0xe749822e,0xff4e43ee,0xff7841ee,0xff6c323b
+./m68k/ifpsp060/fpsp.sa:1943:	.long	0x323b120a,0x4efb1006,0x4afc0030,0xfd120072
+./m68k/ifpsp060/fpsp.sa:2050:	.long	0xfebc323b,0x120a4efb,0x10064afc,0x0030fd20
+./m68k/ifpsp060/fpsp.sa:2183:	.long	0x4e75323b,0x120a4efb,0x10064afc,0x0030ffdc
+./m68k/ifpsp060/fpsp.sa:2246:	.long	0x323b120a,0x4efb1006,0x4afc0030,0xfd560072
+./m68k/ifpsp060/fpsp.sa:2295:	.long	0xf23c58b8,0x0001f293,0xfe0c6000,0xfedc323b
+./m68k/ifpsp060/fpsp.sa:2343:	.long	0x0498f200,0x0438f292,0xfeca6000,0xfe14323b
+./m68k/ifpsp060/fpsp.sa:2404:	.long	0xfeca6000,0xfe14323b,0x120a4efb,0x10064afc
+./m68k/ifpsp060/fpsp.sa:2514:	.long	0x323b0206,0x4efb1002,0x02340040,0x02f8030c
+./m68k/ifpsp060/fpsp.sa:2573:	.long	0xff424281,0x122eff64,0xe099f201,0x8800323b
+./m68k/ifpsp060/fpsp.sa:2627:	.long	0x8800323b,0x02064efb,0x10020208,0x004002ac
+./m68k/ifpsp060/fpsp.sa:2848:	.long	0x0076206e,0x000c4e75,0x323b120e,0x206e000c
+./m68k/ifpsp060/fpsp.sa:2855:	.long	0x000cffd8,0x4e75323b,0x1214206e,0x000c5188
+./m68k/ifpsp060/fpsp.sa:2907:	.long	0x00000e78,0x323c3f81,0x9240836e,0xff6c1d7c
+./m68k/ifpsp060/fpsp.sa:2919:	.long	0x0007ff6c,0x41eeff6c,0x61ff0000,0x0dae323c
+./m68k/ifpsp060/fpsp.sa:3047:	.long	0x20164e75,0x202effd8,0x4e75323b,0x12064efb
+./m68k/ifpsp060/fpsp.sa:3051:	.long	0x4e752e00,0x4e75323b,0x12064efb,0x10020010
+./m68k/ifpsp060/fpsp.sa:3055:	.long	0x4e75323b,0x12064efb,0x10020010,0x0016001c
+./m68k/ifpsp060/fpsp.sa:3058:	.long	0x4e751a00,0x4e751c00,0x4e751e00,0x4e75323b
+./m68k/ifpsp060/fpsp.sa:3063:	.long	0x6706d1ae,0xffd84e75,0x54aeffd8,0x4e75323b
+./m68k/ifpsp060/fpsp.sa:3093:	.long	0x4e750000,0x3f813c01,0xe408323b,0x02f63001
+./m68k/ifpsp060/fpsp.sa:3183:	.long	0x428061ff,0xfffffa64,0x2057323c,0x00044841
+./m68k/ifpsp060/fpsp.sa:3395:	.long	0x00604e75,0x122eff41,0x02410007,0x323b1206
+./m68k/ifpsp060/itest.sa:93:	dc.l	$ff7e48ee,$7fffffc0,$3d7caaaa,$ff82323c
+./m68k/ifpsp060/itest.sa:127:	dc.l	$aaaaff9e,$323caaaa,$be4166ff,$000047a4
+./m68k/ifpsp060/itest.sa:144:	dc.l	$ffc03d7c,$aaaaff82,$323caaaa,$b04166ff
+./m68k/ifpsp060/itest.sa:169:	dc.l	$ff7e48ee,$7fffffc0,$3d7caaaa,$ff82323c
+./m68k/ifpsp060/itest.sa:236:	dc.l	$40ec41ee,$ff6130bc,$aaaa323c,$aaaa343c
+./m68k/ifpsp060/itest.sa:241:	dc.l	$0000409a,$41eeff61,$30bceeee,$323caaaa
+./m68k/ifpsp060/itest.sa:348:	dc.l	$bbbb323c,$aaaa343c,$bbbb363c,$cccc383c
+./m68k/ifpsp060/itest.sa:354:	dc.l	$ff6143ee,$ff6530bc,$aaaa32bc,$bbbb323c
+./m68k/ifpsp060/itest.sa:361:	dc.l	$ff6430bc,$eeee32bc,$bbbb323c,$aaaa343c
+./m68k/ifpsp060/itest.sa:369:	dc.l	$bbbb323c,$aaaa343c,$bbbb363c,$cccc383c
+./m68k/ifpsp060/itest.sa:376:	dc.l	$ff6430bc,$aaaa32bc,$eeee323c,$aaaa343c
+./m68k/ifpsp060/itest.sa:384:	dc.l	$7fff323c,$aaaa343c,$8000363c,$cccc383c
+./m68k/configs/multi_defconfig:91:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/atari_defconfig:82:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/amiga_defconfig:84:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/sun3x_defconfig:77:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/q40_defconfig:80:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/sun3_defconfig:77:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/bvme6000_defconfig:80:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/mac_defconfig:81:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/mvme147_defconfig:79:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/hp300_defconfig:82:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/mvme16x_defconfig:80:CONFIG_NF_CONNTRACK_H323=m
+./m68k/configs/apollo_defconfig:82:CONFIG_NF_CONNTRACK_H323=m
+./arm64/include/asm/unistd32.h:670:#define __NR_mkdirat 323
+./powerpc/include/asm/spu.h:350:	u8  pad_0x3230_0x4000[0x4000 - 0x3230]; 		/* 0x3230 */
+./powerpc/include/uapi/asm/unistd.h:348:#define __NR_fanotify_init	323
+./powerpc/boot/dts/t208xqds.dtsi:153:						compatible = "dallas,ds3232";
+./powerpc/boot/dts/mpc832x_mds.dts:2: * MPC8323E EMDS Device Tree Source
+./powerpc/boot/dts/mpc832x_mds.dts:11: * To enable external serial I/O on a Freescale MPC 8323 SYS/MDS board, do
+./powerpc/boot/dts/mpc832x_mds.dts:27:	model = "MPC8323EMDS";
+./powerpc/boot/dts/mpc832x_mds.dts:28:	compatible = "MPC8323EMDS", "MPC832xMDS", "MPC83xxMDS";
+./powerpc/boot/dts/mpc832x_mds.dts:44:		PowerPC,8323@0 {
+./powerpc/boot/dts/mpc832x_mds.dts:63:		compatible = "fsl,mpc8323mds-bcsr";
+./powerpc/boot/dts/mpc832x_mds.dts:67:	soc8323@e0000000 {
+./powerpc/boot/dts/mpc832x_mds.dts:83:			compatible = "fsl,mpc8323-pmc", "fsl,mpc8349-pmc";
+./powerpc/boot/dts/mpc832x_mds.dts:128:			compatible = "fsl,mpc8323-dma", "fsl,elo-dma";
+./powerpc/boot/dts/mpc832x_mds.dts:135:				compatible = "fsl,mpc8323-dma-channel", "fsl,elo-dma-channel";
+./powerpc/boot/dts/mpc832x_mds.dts:142:				compatible = "fsl,mpc8323-dma-channel", "fsl,elo-dma-channel";
+./powerpc/boot/dts/mpc832x_mds.dts:149:				compatible = "fsl,mpc8323-dma-channel", "fsl,elo-dma-channel";
+./powerpc/boot/dts/mpc832x_mds.dts:156:				compatible = "fsl,mpc8323-dma-channel", "fsl,elo-dma-channel";
+./powerpc/boot/dts/t4240qds.dts:172:						compatible = "dallas,ds3232";
+./powerpc/boot/dts/p1022ds.dtsi:149:			compatible = "dallas,ds3232";
+./powerpc/boot/dts/p3041ds.dts:112:				compatible = "dallas,ds3232";
+./powerpc/boot/dts/kmeter1.dts:143:					     "fsl,mpc8323-qe-pario-bank";
+./powerpc/boot/dts/t104xqds.dtsi:115:				compatible = "dallas,ds3232";
+./powerpc/boot/dts/mpc8536ds.dtsi:131:			compatible = "dallas,ds3232";
+./powerpc/boot/dts/mpc8569mds.dts:131:					     "fsl,mpc8323-qe-pario-bank";
+./powerpc/boot/dts/mpc8569mds.dts:139:					     "fsl,mpc8323-qe-pario-bank";
+./powerpc/boot/dts/mpc836x_mds.dts:226:					     "fsl,mpc8323-qe-pario-bank";
+./powerpc/boot/dts/mpc836x_mds.dts:345:				     "fsl,mpc8323-qe-usb";
+./powerpc/boot/dts/mpc832x_rdb.dts:15:	model = "MPC8323ERDB";
+./powerpc/boot/dts/mpc832x_rdb.dts:16:	compatible = "MPC8323ERDB", "MPC832xRDB", "MPC83xxRDB";
+./powerpc/boot/dts/mpc832x_rdb.dts:32:		PowerPC,8323@0 {
+./powerpc/boot/dts/mpc832x_rdb.dts:50:	soc8323@e0000000 {
+./powerpc/boot/dts/mpc832x_rdb.dts:66:			compatible = "fsl,mpc8323-pmc", "fsl,mpc8349-pmc";
+./powerpc/boot/dts/mpc832x_rdb.dts:106:			compatible = "fsl,mpc8323-dma", "fsl,elo-dma";
+./powerpc/boot/dts/mpc832x_rdb.dts:113:				compatible = "fsl,mpc8323-dma-channel", "fsl,elo-dma-channel";
+./powerpc/boot/dts/mpc832x_rdb.dts:120:				compatible = "fsl,mpc8323-dma-channel", "fsl,elo-dma-channel";
+./powerpc/boot/dts/mpc832x_rdb.dts:127:				compatible = "fsl,mpc8323-dma-channel", "fsl,elo-dma-channel";
+./powerpc/boot/dts/mpc832x_rdb.dts:134:				compatible = "fsl,mpc8323-dma-channel", "fsl,elo-dma-channel";
+./powerpc/boot/dts/mpc832x_rdb.dts:167:			compatible = "fsl,mpc8323-qe-pario";
+./powerpc/boot/dts/mpc832x_rdb.dts:173:				compatible = "fsl,mpc8323-qe-pario-bank";
+./powerpc/boot/dts/mpc832x_rdb.dts:260:				compatible = "fsl,mpc8323rdb-mmc-slot",
+./powerpc/boot/dts/b4qds.dtsi:166:						compatible = "dallas,ds3232";
+./powerpc/boot/dts/fsl/mpc8569si-post.dtsi:244:			     "fsl,mpc8323-qe-usb";
+./powerpc/boot/dts/p4080ds.dts:110:				compatible = "dallas,ds3232";
+./powerpc/boot/dts/mpc836x_rdk.dts:185:				     "fsl,mpc8323-qe-pario-bank";
+./powerpc/boot/dts/mpc836x_rdk.dts:193:				     "fsl,mpc8323-qe-pario-bank";
+./powerpc/boot/dts/mpc836x_rdk.dts:236:					     "fsl,mpc8323-qe-usb";
+./powerpc/boot/dts/p5040ds.dts:109:				compatible = "dallas,ds3232";
+./powerpc/boot/dts/p5020ds.dts:112:				compatible = "dallas,ds3232";
+./powerpc/perf/power5+-pmu.c:203:	{ 0x230e2,  0x323087 },			/* PM_BR_PRED_CR */
+./powerpc/perf/power5+-pmu.c:204:	{ 0x230e3,  0x223087, 0x3230a0 },	/* PM_BR_PRED_TA */
+./powerpc/perf/hv-24x7-catalog.h:9:#define HV_24X7_CATALOG_MAGIC 0x32347837 /* "24x7" in ASCII */
+./powerpc/oprofile/op_model_cell.c:967: 3671780, 4257846, 5662259, 13196905, 3237343, 12077182, 16222879, 7587769,
+./powerpc/platforms/83xx/mpc836x_mds.c:162:	np = of_find_compatible_node(NULL, NULL, "fsl,mpc8323-qe-usb");
+./powerpc/platforms/83xx/Kconfig:39:	  This option enables support for the MPC8323 RDB board.
+./powerpc/sysdev/ppc4xx_pci.c:977:		mtdcri(SDR0, PESDR0_460EX_L0CDRCTL, 0x00003230);
+./powerpc/sysdev/ppc4xx_pci.c:985:		mtdcri(SDR0, PESDR1_460EX_L0CDRCTL, 0x00003230);
+./powerpc/sysdev/ppc4xx_pci.c:986:		mtdcri(SDR0, PESDR1_460EX_L1CDRCTL, 0x00003230);
+./powerpc/sysdev/ppc4xx_pci.c:987:		mtdcri(SDR0, PESDR1_460EX_L2CDRCTL, 0x00003230);
+./powerpc/sysdev/ppc4xx_pci.c:988:		mtdcri(SDR0, PESDR1_460EX_L3CDRCTL, 0x00003230);
+./powerpc/sysdev/ppc4xx_pci.c:1090:	mtdcri(SDR0, PESDR0_460EX_L0CDRCTL, 0x00003230);
+./powerpc/sysdev/ppc4xx_pci.h:334:#define PESDR0_460SX_HSSL3DAMP		0x323
+./powerpc/sysdev/qe_lib/gpio.c:161:	if (!of_device_is_compatible(gc->of_node, "fsl,mpc8323-qe-pario-bank")) {
+./powerpc/sysdev/qe_lib/gpio.c:281:	for_each_compatible_node(np, NULL, "fsl,mpc8323-qe-pario-bank") {
+./powerpc/xmon/ppc-opc.c:2441:{ "evmhegsmfaa",VX(4, 1323), VX_MASK,	PPCSPE,		{ RS, RA, RB } },
+./powerpc/xmon/ppc-opc.c:3719:{ "mfexisr",  XSPR(31,323,64),  XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3720:{ "mfexier",  XSPR(31,323,66),  XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3721:{ "mfbr0",    XSPR(31,323,128), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3722:{ "mfbr1",    XSPR(31,323,129), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3723:{ "mfbr2",    XSPR(31,323,130), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3724:{ "mfbr3",    XSPR(31,323,131), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3725:{ "mfbr4",    XSPR(31,323,132), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3726:{ "mfbr5",    XSPR(31,323,133), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3727:{ "mfbr6",    XSPR(31,323,134), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3728:{ "mfbr7",    XSPR(31,323,135), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3729:{ "mfbear",   XSPR(31,323,144), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3730:{ "mfbesr",   XSPR(31,323,145), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3731:{ "mfiocr",   XSPR(31,323,160), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3732:{ "mfdmacr0", XSPR(31,323,192), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3733:{ "mfdmact0", XSPR(31,323,193), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3734:{ "mfdmada0", XSPR(31,323,194), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3735:{ "mfdmasa0", XSPR(31,323,195), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3736:{ "mfdmacc0", XSPR(31,323,196), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3737:{ "mfdmacr1", XSPR(31,323,200), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3738:{ "mfdmact1", XSPR(31,323,201), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3739:{ "mfdmada1", XSPR(31,323,202), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3740:{ "mfdmasa1", XSPR(31,323,203), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3741:{ "mfdmacc1", XSPR(31,323,204), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3742:{ "mfdmacr2", XSPR(31,323,208), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3743:{ "mfdmact2", XSPR(31,323,209), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3744:{ "mfdmada2", XSPR(31,323,210), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3745:{ "mfdmasa2", XSPR(31,323,211), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3746:{ "mfdmacc2", XSPR(31,323,212), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3747:{ "mfdmacr3", XSPR(31,323,216), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3748:{ "mfdmact3", XSPR(31,323,217), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3749:{ "mfdmada3", XSPR(31,323,218), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3750:{ "mfdmasa3", XSPR(31,323,219), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3751:{ "mfdmacc3", XSPR(31,323,220), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3752:{ "mfdmasr",  XSPR(31,323,224), XSPR_MASK, PPC403,	{ RT } },
+./powerpc/xmon/ppc-opc.c:3753:{ "mfdcr",    X(31,323),	X_MASK,	PPC403 | BOOKE,	{ RT, SPR } },
+./powerpc/configs/corenet32_smp_defconfig:144:CONFIG_RTC_DRV_DS3232=y
+./powerpc/configs/ppc6xx_defconfig:148:CONFIG_NF_CONNTRACK_H323=m
+./powerpc/configs/85xx/kmp204x_defconfig:188:CONFIG_RTC_DRV_DS3232=y
+./powerpc/configs/linkstation_defconfig:33:CONFIG_NF_CONNTRACK_H323=m
+./powerpc/configs/corenet64_smp_defconfig:133:CONFIG_RTC_DRV_DS3232=y
+./powerpc/configs/mpc85xx_smp_defconfig:192:CONFIG_RTC_DRV_DS3232=y
+./powerpc/configs/mpc85xx_defconfig:200:CONFIG_RTC_DRV_DS3232=y
+./powerpc/configs/mvme5100_defconfig:42:CONFIG_NF_CONNTRACK_H323=m
+./parisc/include/uapi/asm/unistd.h:341:#define __NR_fanotify_mark	(__NR_Linux + 323)
+./sh/include/uapi/asm/unistd_32.h:335:#define __NR_eventfd		323
+./sh/include/uapi/asm/unistd_64.h:346:#define __NR_openat		323
+./sh/kernel/cpu/sh4a/clock-sh7734.c:108:	MSTP323, /* SDHI0 */
+./sh/kernel/cpu/sh4a/clock-sh7734.c:162:	[MSTP323] = SH_CLK_MSTP32(&div4_clks[DIV4_P], MSTPCR3, 23, 0),
+./sh/kernel/cpu/sh4a/clock-sh7734.c:222:	CLKDEV_CON_ID("sdhi0", &mstp_clks[MSTP323]),
+./sh/kernel/cpu/sh2a/setup-sh7269.c:172:	INTC_IRQ(CD_ROMD, 323), INTC_IRQ(CD_ROMD, 324),
+./sh/boards/mach-migor/setup.c:43: * 0x0c000000       64MB  64   SDRAM (2xK4M563233G)
+./sh/lib/udivsi3_i4i.S:645:	.long	0x323E34A3
+./microblaze/include/uapi/asm/unistd.h:338:#define __NR_eventfd		323 /* ok */
+./mips/include/asm/cpu-features.h:281: * MIPS32, MIPS64, VR5500, IDT32332, IDT32334 and maybe a few other
+./mips/include/asm/mach-ralink/rt305x.h:65:#define RT3052_CHIP_NAME1		0x20203235
+./mips/include/asm/mach-ralink/rt305x.h:71:#define RT3352_CHIP_NAME1		0x20203235
+./mips/include/asm/mach-rc32434/rc32434.h:2: * Definitions for IDT RC323434 CPU.
+./mips/include/uapi/asm/unistd.h:346:#define __NR_timerfd_settime		(__NR_Linux + 323)
+./mips/configs/rm200_defconfig:59:CONFIG_NF_CONNTRACK_H323=m
+./mips/configs/nlm_xlp_defconfig:117:CONFIG_NF_CONNTRACK_H323=m
+./mips/configs/jazz_defconfig:52:CONFIG_NF_CONNTRACK_H323=m
+./mips/configs/maltaup_xpa_defconfig:68:CONFIG_NF_CONNTRACK_H323=m
+./mips/configs/malta_kvm_defconfig:67:CONFIG_NF_CONNTRACK_H323=m
+./mips/configs/nlm_xlr_defconfig:97:CONFIG_NF_CONNTRACK_H323=m
+./mips/configs/malta_kvm_guest_defconfig:66:CONFIG_NF_CONNTRACK_H323=m
+./mips/configs/ip22_defconfig:75:CONFIG_NF_CONNTRACK_H323=m
+./mips/configs/markeins_defconfig:49:CONFIG_NF_CONNTRACK_H323=m
+./mips/configs/malta_defconfig:66:CONFIG_NF_CONNTRACK_H323=m

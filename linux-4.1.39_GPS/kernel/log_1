@@ -1,0 +1,252 @@
+acct.c:505:		ac.ac_ppid = task_tgid_nr_ns(rcu_dereference(current->real_parent),
+Binary file acct.o matches
+Binary file async.o matches
+Binary file auditfilter.o matches
+Binary file audit.o matches
+Binary file auditsc.o matches
+Binary file audit_tree.o matches
+Binary file audit_watch.o matches
+Binary file bpf/built-in.o matches
+Binary file bpf/core.o matches
+Binary file built-in.o matches
+Binary file capability.o matches
+Binary file cgroup_freezer.o matches
+Binary file cgroup.o matches
+Binary file compat.o matches
+Binary file context_tracking.o matches
+Binary file cpu.o matches
+Binary file cpuset.o matches
+Binary file crash_dump.o matches
+Binary file cred.o matches
+Binary file debug/gdbstub.o matches
+Binary file debug/debug_core.o matches
+Binary file debug/built-in.o matches
+Binary file debug/kdb/kdb_main.o matches
+Binary file debug/kdb/kdb_bt.o matches
+Binary file debug/kdb/kdb_io.o matches
+Binary file debug/kdb/kdb_support.o matches
+Binary file debug/kdb/built-in.o matches
+Binary file debug/kdb/kdb_debugger.o matches
+Binary file debug/kdb/kdb_keyboard.o matches
+Binary file debug/kdb/kdb_bp.o matches
+Binary file delayacct.o matches
+Binary file elfcore.o matches
+Binary file events/uprobes.o matches
+Binary file events/built-in.o matches
+Binary file events/core.o matches
+Binary file events/callchain.o matches
+Binary file events/hw_breakpoint.o matches
+Binary file events/ring_buffer.o matches
+Binary file exec_domain.o matches
+exit.c:230:		    is_global_init(p->real_parent))
+exit.c:233:		if (task_pgrp(p->real_parent) != pgrp &&
+exit.c:234:		    task_session(p->real_parent) == task_session(p))
+exit.c:279:		parent = tsk->real_parent;
+exit.c:332:	list_for_each_entry(c, &p->real_parent->children, sibling) {
+exit.c:504:		     reaper = reaper->real_parent) {
+exit.c:567:			t->real_parent = reaper;
+exit.c:570:				t->parent = t->real_parent;
+Binary file exit.o matches
+Binary file extable.o matches
+fork.c:1526:		p->real_parent = current->real_parent;
+fork.c:1529:		p->real_parent = current;
+fork.c:1572:			list_add_tail(&p->sibling, &p->real_parent->children);
+Binary file fork.o matches
+Binary file freezer.o matches
+Binary file futex_compat.o matches
+Binary file futex.o matches
+Binary file groups.o matches
+Binary file hung_task.o matches
+Binary file irq/spurious.o matches
+Binary file irq/migration.o matches
+Binary file irq/chip.o matches
+Binary file irq/pm.o matches
+Binary file irq/resend.o matches
+Binary file irq/proc.o matches
+Binary file irq/built-in.o matches
+Binary file irq/dummychip.o matches
+Binary file irq/handle.o matches
+Binary file irq/autoprobe.o matches
+Binary file irq/irqdesc.o matches
+Binary file irq/manage.o matches
+Binary file irq_work.o matches
+Binary file kallsyms.o matches
+Binary file kexec.o matches
+Binary file kmod.o matches
+Binary file kprobes.o matches
+Binary file ksysfs.o matches
+Binary file kthread.o matches
+Binary file locking/percpu-rwsem.o matches
+Binary file locking/semaphore.o matches
+Binary file locking/rwsem.o matches
+Binary file locking/rtmutex.o matches
+Binary file locking/built-in.o matches
+Binary file locking/rwsem-xadd.o matches
+Binary file locking/osq_lock.o matches
+Binary file locking/mutex.o matches
+log:3:./exit.c:230:		    is_global_init(p->real_parent))
+log:4:./exit.c:233:		if (task_pgrp(p->real_parent) != pgrp &&
+log:5:./exit.c:234:		    task_session(p->real_parent) == task_session(p))
+log:6:./exit.c:279:		parent = tsk->real_parent;
+log:7:./exit.c:332:	list_for_each_entry(c, &p->real_parent->children, sibling) {
+log:8:./exit.c:504:		     reaper = reaper->real_parent) {
+log:9:./exit.c:567:			t->real_parent = reaper;
+log:10:./exit.c:570:				t->parent = t->real_parent;
+log:17:./sys.c:842: * Accessing ->real_parent is not SMP-safe, it could
+log:18:./sys.c:844: * value of ->real_parent under rcu_read_lock(), see
+log:19:./sys.c:852:	pid = task_tgid_vnr(rcu_dereference(current->real_parent));
+log:20:./sys.c:948:	if (same_thread_group(p->real_parent, group_leader)) {
+log:32:./fork.c:1526:		p->real_parent = current->real_parent;
+log:33:./fork.c:1529:		p->real_parent = current;
+log:34:./fork.c:1572:			list_add_tail(&p->sibling, &p->real_parent->children);
+log:35:./signal.c:1641:		 * This is only possible if parent == real_parent.
+log:36:./signal.c:1739:		parent = tsk->real_parent;
+log:37:./signal.c:1890:		 * the real_parent of the group_leader.  The ptracer should
+log:92:./ptrace.c:82:	child->parent = child->real_parent;
+log:93:./ptrace.c:439:		 * Check PF_EXITING to ensure ->real_parent has not passed
+log:94:./ptrace.c:441:		 * pretend ->real_parent untraces us right after return.
+log:95:./ptrace.c:443:		if (!ret && !(current->real_parent->flags & PF_EXITING)) {
+log:96:./ptrace.c:445:			__ptrace_link(current, current->real_parent);
+log:97:./ptrace.c:493:		if (!same_thread_group(p->real_parent, tracer))
+log:124:./sched/core.c:4713:		ppid = task_pid_nr(rcu_dereference(p->real_parent));
+log:131:./sched/fair.c:883:            printk("In Update_curr leftmost is NULL! The counter is: %d Parent: %d, name: %s, Real_Parent: %d, Name: %s\n", curr->counter, p->parent->pid, p->parent->comm, p->real_parent->pid, p->real_parent->comm);
+log:132:./sched/fair.c:3481:                cpu, p->comm, p->pid, p->parent->comm, p->parent->pid, p->real_parent->comm, p->real_parent->pid, jiffies, ideal_runtime, delta_exec, cfs_rq->nr_running);
+log:133:./sched/fair.c:3720:                cpu, p->comm, p->pid, jiffies, p->real_parent->comm, p->real_parent->pid, cfs_rq->nr_running);
+log:173:./acct.c:505:		ac.ac_ppid = task_tgid_nr_ns(rcu_dereference(current->real_parent),
+log:222:./tsacct.c:66:		task_tgid_nr_ns(rcu_dereference(tsk->real_parent), pid_ns) : 0;
+Binary file module.o matches
+Binary file notifier.o matches
+Binary file nsproxy.o matches
+Binary file padata.o matches
+Binary file panic.o matches
+Binary file pid_namespace.o matches
+Binary file pid.o matches
+Binary file power/console.o matches
+Binary file power/suspend.o matches
+Binary file power/swap.o matches
+Binary file power/block_io.o matches
+Binary file power/main.o matches
+Binary file power/process.o matches
+Binary file power/built-in.o matches
+Binary file power/hibernate.o matches
+Binary file power/snapshot.o matches
+Binary file power/user.o matches
+Binary file power/qos.o matches
+Binary file printk/printk.o matches
+Binary file printk/built-in.o matches
+ptrace.c:82:	child->parent = child->real_parent;
+ptrace.c:439:		 * Check PF_EXITING to ensure ->real_parent has not passed
+ptrace.c:441:		 * pretend ->real_parent untraces us right after return.
+ptrace.c:443:		if (!ret && !(current->real_parent->flags & PF_EXITING)) {
+ptrace.c:445:			__ptrace_link(current, current->real_parent);
+ptrace.c:493:		if (!same_thread_group(p->real_parent, tracer))
+Binary file ptrace.o matches
+Binary file rcu/tree.o matches
+Binary file rcu/built-in.o matches
+Binary file rcu/update.o matches
+Binary file rcu/srcu.o matches
+Binary file reboot.o matches
+Binary file relay.o matches
+Binary file resource.o matches
+sched/core.c:4713:		ppid = task_pid_nr(rcu_dereference(p->real_parent));
+Binary file sched/completion.o matches
+Binary file sched/cputime.o matches
+Binary file sched/idle.o matches
+Binary file sched/proc.o matches
+Binary file sched/cpudeadline.o matches
+Binary file sched/clock.o matches
+sched/fair.c:883:            printk("In Update_curr leftmost is NULL! The counter is: %d Parent: %d, name: %s, Real_Parent: %d, Name: %s\n", curr->counter, p->parent->pid, p->parent->comm, p->real_parent->pid, p->real_parent->comm);
+sched/fair.c:3481:                cpu, p->comm, p->pid, p->parent->comm, p->parent->pid, p->real_parent->comm, p->real_parent->pid, jiffies, ideal_runtime, delta_exec, cfs_rq->nr_running);
+sched/fair.c:3720:                cpu, p->comm, p->pid, jiffies, p->real_parent->comm, p->real_parent->pid, cfs_rq->nr_running);
+Binary file sched/built-in.o matches
+Binary file sched/fair.o matches
+Binary file sched/rt.o matches
+Binary file sched/auto_group.o matches
+Binary file sched/core.o matches
+Binary file sched/stop_task.o matches
+Binary file sched/deadline.o matches
+Binary file sched/idle_task.o matches
+Binary file sched/wait.o matches
+Binary file sched/cpuacct.o matches
+Binary file sched/debug.o matches
+Binary file sched/cpupri.o matches
+Binary file seccomp.o matches
+signal.c:1641:		 * This is only possible if parent == real_parent.
+signal.c:1739:		parent = tsk->real_parent;
+signal.c:1890:		 * the real_parent of the group_leader.  The ptracer should
+Binary file signal.o matches
+Binary file smpboot.o matches
+Binary file smp.o matches
+Binary file softirq.o matches
+Binary file stacktrace.o matches
+Binary file stop_machine.o matches
+sys.c:842: * Accessing ->real_parent is not SMP-safe, it could
+sys.c:844: * value of ->real_parent under rcu_read_lock(), see
+sys.c:852:	pid = task_tgid_vnr(rcu_dereference(current->real_parent));
+sys.c:948:	if (same_thread_group(p->real_parent, group_leader)) {
+Binary file sysctl_binary.o matches
+Binary file sysctl.o matches
+Binary file sys.o matches
+Binary file system_keyring.o matches
+Binary file taskstats.o matches
+Binary file task_work.o matches
+Binary file time/timer.o matches
+Binary file time/tick-broadcast-hrtimer.o matches
+Binary file time/posix-clock.o matches
+Binary file time/itimer.o matches
+Binary file time/clocksource.o matches
+Binary file time/timekeeping.o matches
+Binary file time/posix-timers.o matches
+Binary file time/tick-sched.o matches
+Binary file time/tick-oneshot.o matches
+Binary file time/tick-common.o matches
+Binary file time/posix-cpu-timers.o matches
+Binary file time/timer_stats.o matches
+Binary file time/timer_list.o matches
+Binary file time/built-in.o matches
+Binary file time/alarmtimer.o matches
+Binary file time/time.o matches
+Binary file time/hrtimer.o matches
+Binary file time/tick-broadcast.o matches
+Binary file time/clockevents.o matches
+Binary file trace/trace_export.o matches
+Binary file trace/trace_output.o matches
+Binary file trace/trace_stack.o matches
+Binary file trace/ftrace.o matches
+Binary file trace/trace_uprobe.o matches
+Binary file trace/trace.o matches
+Binary file trace/trace_functions_graph.o matches
+Binary file trace/trace_event_perf.o matches
+Binary file trace/power-traces.o matches
+Binary file trace/trace_events_trigger.o matches
+Binary file trace/trace_clock.o matches
+Binary file trace/trace_kdb.o matches
+Binary file trace/rpm-traces.o matches
+Binary file trace/trace_nop.o matches
+Binary file trace/trace_sched_wakeup.o matches
+Binary file trace/built-in.o matches
+Binary file trace/trace_syscalls.o matches
+Binary file trace/trace_functions.o matches
+Binary file trace/ring_buffer_benchmark.o matches
+Binary file trace/trace_kprobe.o matches
+Binary file trace/blktrace.o matches
+Binary file trace/trace_sched_switch.o matches
+Binary file trace/trace_printk.o matches
+Binary file trace/trace_events.o matches
+Binary file trace/libftrace.o matches
+Binary file trace/trace_stat.o matches
+Binary file trace/trace_events_filter.o matches
+Binary file trace/trace_probe.o matches
+Binary file trace/ring_buffer.o matches
+Binary file trace/ring_buffer_benchmark.ko matches
+Binary file tracepoint.o matches
+tsacct.c:66:		task_tgid_nr_ns(rcu_dereference(tsk->real_parent), pid_ns) : 0;
+Binary file tsacct.o matches
+Binary file uid16.o matches
+Binary file user_namespace.o matches
+Binary file user.o matches
+Binary file user-return-notifier.o matches
+Binary file utsname.o matches
+Binary file utsname_sysctl.o matches
+Binary file watchdog.o matches
+Binary file workqueue.o matches
